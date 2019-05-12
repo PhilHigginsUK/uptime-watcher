@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.hostArea {
+  display: flex;
+  height: 100%;
+}
+
+.left, .right{
+  display: flex;
+  flex:1;
+}
+
+.middle{
+    background:#ddd;
+    min-width: 600px;
+}
+
+.left{
+    background:#999;
+}
+.right{
+    background:#999;
+}
+
+middle,left,right{
+    height: 100%;
+}
